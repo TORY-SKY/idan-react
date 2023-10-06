@@ -9,7 +9,7 @@ function App() {
    <Header name='VICTORY' />
    <h1>AND HERE IS A SUCCESSFUL AGAIN </h1>
    <p>let the .. breeeath</p>
-   <h1>i hope this work without the internet</h1>
+   <h1>i hope this works without the internet</h1>
    <logo />
    //event listener
    <Buttn />
