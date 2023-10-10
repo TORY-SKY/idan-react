@@ -2,7 +2,6 @@
 import './App.css';
 import Header from './component/Header'
 import Buttn from './component/click'
-import Toggler from './component/toggleEvent'
 import Ustate from './component/useState';
 
 function App() {
@@ -13,9 +12,10 @@ function App() {
    <h1>i hope this works without the internet</h1>
    <Buttn />
    <h1>AND HERE IS A SUCCESSFUL AGAIN </h1>
-   <Toggler />
+   
 
    <Ustate />
+  
 
 
    </>
