@@ -4,11 +4,13 @@ import Cond2 from "./ConditionComp"
 
 function Marger(props){
     const isRendered = !props.isRendered;
-    if(isRendered === true){
+    if(props.isRendered ){
         return <Cond1 />
     }
-   
-        return <Cond2 />
+   else{
+    return <Cond2 />
+   }
+        
     
 }
 export default Marger;
