@@ -7,7 +7,9 @@ import Marger from './component/MargeConditions';
 function App() {
    return <>
    
- <Marger isRendered = {false} />
+  <Marger isRendered = {true} />
+ 
+  <h1>HELLO WORLD</h1>
   
 
 
