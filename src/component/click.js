@@ -4,7 +4,7 @@ function Buttn(){
         console.log('clicked');
      }
      return (
-        <button onClick={clickHandler}>Click me</button>
+        <button onLoad={clickHandler}>click me</button>
      );
 }
 export default Buttn;
