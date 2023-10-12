@@ -1,18 +1,12 @@
 
 import './App.css';
-//import Cond1 from './component/ConditionComp'
-//import Cond2 from './component/ConditionComp2'
-import Marger from './component/MargeConditions';
+import ListITems from './component/RadomComp'
 
 function App() {
    return <>
-   
-  <Marger isRendered = {true} />
- 
-  <h1>HELLO WORLD</h1>
-  
-
-
+   <ListITems />
+   <h2>Where are the customers</h2>
+   <p>Everything is under control</p>
    </>
    
 }
