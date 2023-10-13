@@ -6,6 +6,8 @@ function ListITems(){
         return <li key={index}>{customer }</li>
         
     })
-    return <li>{CustomerListItems}</li>
+    return <>
+            <li>{CustomerListItems}</li>
+    </>
 }
 export default ListITems;
