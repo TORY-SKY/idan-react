@@ -5,6 +5,7 @@ import ListITems from './component/RandomComp'
 function App() {
    return <>
    <ListITems />
+   <ListITems />
    
    </>
    
