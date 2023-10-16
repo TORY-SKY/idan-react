@@ -4,6 +4,7 @@ import './App.css';
 //import React, {useState} from 'react'
 //import{LoginContext} from './Context/LoginContext'
 import Counter from './component/useState.js'
+import UseTate from './Context/LoginContext.js'
 
    function DontPlay(){
       
@@ -24,7 +25,7 @@ function App() {
    <Counter />
    <DontPlay />
    
-   
+   <UseTate name="Victor" />
    </>
    
 }
