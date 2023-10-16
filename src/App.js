@@ -5,12 +5,24 @@ import './App.css';
 //import{LoginContext} from './Context/LoginContext'
 import Counter from './component/useState.js'
 
-function App() {
+   function DontPlay(){
+      
+    let DDate = new Date();
+    const ToDay = DDate.getDay();
+    switch(ToDay){
+      case 1: 
+        return 'Its Monday bro';
+        default:
+         return 'Its not Sunday';
+    }
+   }
    
+function App() {
    return <>
    <h1>HELLO WORLD FU**K</h1>
       
    <Counter />
+   <DontPlay />
    
    
    </>
