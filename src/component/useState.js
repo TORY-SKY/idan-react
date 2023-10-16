@@ -1,12 +1,13 @@
 
 import React, { useState } from 'react'
-function Ustate(){
-const [count, setCount] = useState(0);
-return(
-    <div>
-        <h1>Count: {count} </h1>
-        <button onClick= {() => setCount(count + 1)}>Increase the count NO</button>
-    </div>
-)
-}
-export default Ustate;
+const Counter = ()=>{
+    const [count, setState] = useState(0);
+    const countIncrease = ()=>{
+        setState(count+ 1)
+    }
+    return <>
+       <h1>you've clicked the button {count} times now</h1>
+       <button onClick={countIncrease}>click me bro</button>
+    </>
+   };
+export default Counter;
