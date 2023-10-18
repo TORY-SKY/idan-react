@@ -5,13 +5,15 @@ import './App.css';
 //import{LoginContext} from './Context/LoginContext'
 //import Counter from './component/useState.js'
 import UseStateExample from './Context/LoginContext.js'
+import UseEffectComponent from './component/UseEffect';
 
    
 function App() {
    return <>
    <h1>HELLO WORLD FU**K</h1>
-   
+   <h1>Still tryna figure this out</h1>
    <UseStateExample />
+   <UseEffectComponent />
    </>
    
 }

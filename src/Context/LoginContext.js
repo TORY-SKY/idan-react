@@ -14,7 +14,7 @@ const reducer = (state, action) => {
         const [state, dispatch] = useReducer(reducer, initialState);
         return(
             <>
-            <h1>WALLET: {money}</h1>
+            <h1>WALLET: {state.money}</h1>
             </>
         )
     }
