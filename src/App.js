@@ -6,6 +6,7 @@ import './App.css';
 import Counter from './component/useState.js'
 import UseStateExample from './Context/LoginContext.js'
 import UseEffectComponent from './component/UseEffect';
+import UseReducer from './component/UseReducer.js'
 
    
 function App() {
@@ -15,6 +16,7 @@ function App() {
    <Counter />
    <UseStateExample />
    <UseEffectComponent />
+   <UseReducer />
    </>
    
 }
